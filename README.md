@@ -8,7 +8,7 @@ The goal of this project was to dive beneath the surface of modern machine learn
 
 ---
 
-## 💡 Key Insights & Takeaways
+## What I Learned
 
 ### 1. The Geometry of Learning Rates & Curvature
 Through implementing these algorithms, I discovered a profound mathematical link between a function's curvature and its optimal learning rate:
@@ -24,3 +24,8 @@ While second derivatives provide the perfect, hyperparameter-free step scale, th
 Because calculating the true second derivative is too computationally expensive, **Adam acts as a brilliant mathematical cheat code**. 
 * By maintaining an exponential moving average of squared gradients in the denominator (`v_hat`), Adam dynamically calculates a lightning-fast, cheap *approximation* of the second derivative's scaling properties.
 * Combined with directional momentum (`m_hat`) in the numerator to smooth out noisy trajectories, Adam delivers the ultimate balance of **stability, noise filtering, and computational efficiency**, making it the undisputed default optimizer for modern deep learning.
+
+#### Optimizer Comparisons
+![Optimizers](./Day_1/optimizers.png)
+
+---
