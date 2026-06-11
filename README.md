@@ -1,5 +1,4 @@
-# 🌄 HimalayaGuard - Capstone Project
-### *Know What Awaits Ahead*
+# HimalayaGuard - Capstone Project
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11+-blue.svg" />
@@ -12,17 +11,13 @@
 
 ## Overview
 
-This is a multi-modal machine learning framework designed to transform raw trekking data into actionable route intelligence.
-
-Using historical Himalayan trek data, the system learns latent terrain structure, groups routes with similar characteristics, and predicts operational costs through a fused-feature deep learning pipeline.
-
-Rather than viewing a trek as a collection of disconnected attributes, HimalayaGuard builds a compact representation of the journey itself—capturing how duration, altitude, and difficulty interact across routes.
+This is a multi-modal machine learning framework designed to transform raw trekking data into actionable route intelligence. Using historical Himalayan trek data, the system learns latent terrain structure, groups routes with similar characteristics, and predicts operational costs through a fused-feature deep learning pipeline. Rather than viewing a trek as a collection of disconnected attributes, HimalayaGuard builds a compact representation of the journey itself—capturing how duration, altitude, and difficulty interact across routes.
 
 > **Know what awaits ahead before taking the first step.**
 
 ---
 
-## ✨ Features
+## Features
 
 ### Data Engineering
 - Robust preprocessing and feature extraction
@@ -66,7 +61,7 @@ Estimated Trek Cost
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```text
 ┌─────────────────────┐
@@ -148,7 +143,7 @@ Fused features are passed into a PyTorch network trained with:
 
 ---
 
-## 🚀 Running the Project
+## Running the Project
 
 ```bash
 uv sync
